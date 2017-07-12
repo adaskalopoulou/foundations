@@ -85,3 +85,32 @@ git push
 ####
 git pull origin master (για να κατεβάσει αλλαγές που έχουμε κάνει online)
 
+#####
+
+GIT 
+go to github create a repository, CLONE AND DOWNLOAD, HTTP , copy link
+
+TERMINAL
+git clone (paste link) + enter
+
+
+####
+turn your repository into a website:
+
+SETTINGS
+GIT HUB PAGES
+Source --> MASTER BRANCH
+
+####
+REFRESH  website
+
+SHIFT + REFRESH --> to do force refresh
+
+### IF YOU DRAG AND DROP THINGS:
+git pull
+
+-- you get a strange screeen
+
+:wq
+
+
