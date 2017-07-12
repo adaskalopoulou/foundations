@@ -1,0 +1,18 @@
+The MuckRock page I got it from:
+https://www.muckrock.com/foi/massachusetts-1/all-policies-and-statistics-re-reduced-mbta-fares-for-students-15503/
+
+One-sentence summary of what the data is: Massachusetts Bay Transit Authority policies and statistical information regarding the reduced fare program for students. The format is scanned text and tables. 
+
+Short description of how I processed/cleaned it: 
+
+I converted the pdf to images: 
+    convert -density 300 2-6-15_MR15503_RES_ID15-05.pdf page.png
+I converted the first image to text:
+    tesseract page-0.png page-0.txt
+I analysed the text using regex:
+    see notebook MBTA.ipynb
+
+
+
+
+

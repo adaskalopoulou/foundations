@@ -1,0 +1,17 @@
+Summary 2b
+(this is a second attempt to use kull with a pdf, without creating a zone file)
+
+The MuckRock page I got it from:
+https://www.muckrock.com/foi/united-states-of-america-10/drug-enforcement-administration-2012-budget-2873/
+
+One-sentence summary of what the data is: Drug Enforcement Administration budget. The format is a pdf that includes text and tables. 
+
+Short description of how I processed/cleaned it: 
+
+- I used kull to extract specific information that appears on the front page. 
+- I imported the information in the notebook: pdfquery2.ipynb
+
+
+
+
+

@@ -1,0 +1,20 @@
+Summary 2
+
+The MuckRock page I got it from:
+https://www.muckrock.com/foi/boston-3/6-boston-police-cocaine-use-released-and-reinstated-3254/
+
+One-sentence summary of what the data is: Boston Police Departement drug testing appeals. The format is a pdf that includes text. 
+
+Short description of how I processed/cleaned it: 
+
+- I used kull to extract specific information that appears on the front page. 
+- The result was very messy, see: pdfquery.ipynb
+- Then I converted the first page of the pdf to a png in order to create a zone file (see page-1.uzn) 
+- I used tesseract to convert it to a text file.
+- I analysed it using regex: see notebook pdfquery_png.ipynb
+
+
+
+
+
+

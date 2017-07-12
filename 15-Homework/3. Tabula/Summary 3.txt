@@ -1,0 +1,13 @@
+Summary 3
+
+The MuckRock page I got it from:
+I failed to use tabula with tables that I found on MuckRock. In my 5 attemps the cells were shifting so much to the left that the information was dissappearing from the csv colums. In order to practice using tabula I used the pdf: https://www.ualberta.ca/-/media/F5BB1402996C4035A692B9F9ED08DDC5
+
+One-sentence summary of what the data is: Price Comparison of Commonly Prescribed Pharmaceuticals in Alberta 2016. From this data I analysed the price of the Cardiovascular Pharmaceuticals. The format is a pdf that includes text and tables. 
+
+Short description of how I processed/cleaned it: 
+
+- I used tabula to extract a csv
+- I analyzed the csv using pandas and I answered the question: "What is the most expensive type of cardiovascular drugs?", see notebook: Table Cardiovascular Drugs.ipynb
+
+
